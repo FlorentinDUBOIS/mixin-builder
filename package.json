@@ -1,6 +1,6 @@
 {
   "name": "mixin-builder",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "javascript mixin-builder helper",
   "main": "mixin-builder.html",
   "repository": "git@github.com:FlorentinDUBOIS/mixin-builder.git",
