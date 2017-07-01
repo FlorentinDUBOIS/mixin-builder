@@ -1,0 +1,24 @@
+<script>
+/* exported MixinBuilder */
+
+/**
+ * MixinBuilder
+ * @param       {class} pClass base classed to mixin
+ * @constructor
+ */
+function MixinBuilder(pClass) {
+  return new class {
+    /**
+     * Process mixin in order to provide class
+     * @param  {Array<Function>} pMixins Mixins to apply to the based class
+     * @return {class} based class with mixins
+     */
+    with(...pMixins) {
+      return pMixins.reduce(
+        (pAcc, pMixin) => pClass => pMixin(pAcc(pClass)),
+        pClass => pClass
+      )(pClass)
+    }
+  }()
+}
+</script>
