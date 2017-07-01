@@ -2,16 +2,8 @@
   "name": "mixin-builder",
   "description": "javascript mixin-builder helper",
   "main": "mixin-builder.html",
-  "authors": [
-    "Florentin DUBOIS <contact@florentin-dubois.fr>"
-  ],
+  "authors": ["Florentin DUBOIS <contact@florentin-dubois.fr>"],
   "license": "MIT",
   "homepage": "https://github.com/FlorentinDUBOIS/mixin-builder",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"]
 }
