@@ -1,4 +1,4 @@
-# mixin-builder [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg?style=flat-square)](https://www.webcomponents.org/element/FlorentinDUBOIS/mixin-builder)
+# mixin-builder [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg?style=flat-square)](https://www.webcomponents.org/element/FlorentinDUBOIS/mixin-builder) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 A simple mixin builder created to works well as a web components.
 
